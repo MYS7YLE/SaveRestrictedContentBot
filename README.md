@@ -49,6 +49,9 @@ Buildpacks for manual deploy:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 
+`Fork and Click on Deploy in your fork`
+<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="250""/></a></p>
+
 Deploy your bot on `Okteto`
   
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
