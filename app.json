@@ -6,11 +6,11 @@
   "website": "https://github.com/vasusen-code/SaveRestrictedContentBot",
   "repository": "https://github.com/MYS7YLE/SaveRestrictedContentBot.git",
   "env": {
-        "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
-        "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
-        "AUTH_USERS": {"description": "User ids of authorized users separated by space", "required": false},
+        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
+        "SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
+        "AUTH": {"description": "User ids of authorized users separated by space", "required": false},
         "FORCESUB": {"description": "Without @","value": "startdoingnow"}
   },
  "addons": [
