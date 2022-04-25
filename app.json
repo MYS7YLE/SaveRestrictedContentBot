@@ -1,5 +1,5 @@
 {
-  "name": "SaveRestrictedContentBot",
+  "name": "SaveRestrictedContentBot-ui",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": ["telegram", "best", "Media", "cloning", "copying", "robot"],
   "logo": "https://cdn.dribbble.com/users/1658045/screenshots/4999712/clonelogo-01.png",
@@ -11,17 +11,16 @@
         "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
         "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
         "AUTH_USERS": {"description": "User ids of authorized users separated by space", "required": false},
-        "FORCESUB": {"description": "Public channel username without '@'. Don't forget to add bot in channel as administrator.","value": "startdoingnow"}
+        "FORCESUB": {"description": "Public channel username without '@'. Don't forget to add bot in channel as administrator","value": "startdoingnow"}
   },
- 
-{
+  
+  {
   "buildpacks": [
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-"
+      "url": "heroku/python"
     },
     {
-      "url": "heroku/python"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ]
 }
