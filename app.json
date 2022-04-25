@@ -14,10 +14,14 @@
         "FORCESUB": {"description": "Public channel username without '@'. Don't forget to add bot in channel as administrator.","value": "startdoingnow"}
   },
  
-   "buildpacks": [
+   ],
+  "buildpacks": [
     {"url": "heroku/python"}
   ],
-  
+ 
     }
   }
 }
+© 2022 GitHub, Inc.
+Terms
+Priv
