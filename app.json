@@ -13,11 +13,7 @@
         "AUTH_USERS": {"description": "User ids of authorized users separated by space", "required": false},
         "FORCESUB": {"description": "Without @","value": "startdoingnow"}
   },
-  "addons": [
-    {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
+ 
       }
     }
   ],
